@@ -1,0 +1,3 @@
+INDEX VERSION 1.126+C:\PROJETOS_Bitbucket\Robocode\.metadata\.plugins\org.eclipse.jdt.core
+3080245753.index
+1187202390.index
