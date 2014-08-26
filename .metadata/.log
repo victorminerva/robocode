@@ -322,3 +322,69 @@ java.io.FileNotFoundException: C:\PROJETOS_Bitbucket\RobocodeProject\.classpath 
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1426)
+!SESSION 2014-08-20 21:02:11.618 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.8.0
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.standard.product
+Command-line arguments:  -data C:\PROJETOS_Bitbucket\Robocode -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.standard.product
+
+!ENTRY org.jboss.tools.central 4 0 2014-08-20 21:02:30.390
+!MESSAGE Cannot initialize JBoss DND
+
+!ENTRY org.eclipse.ui.ide 4 4 2014-08-20 21:16:22.572
+!MESSAGE Problems saving workspace
+
+!ENTRY org.eclipse.ui.ide 4 1 2014-08-20 21:16:22.574
+!MESSAGE Problems occurred while trying to save the state of the workbench.
+!SUBENTRY 1 org.eclipse.core.resources 4 568 2014-08-20 21:16:22.574
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: C:\PROJETOS_Bitbucket\Robocode\.metadata\.plugins\org.eclipse.core.resources\.projects\RemoteSystemsTempFiles\.markers (O sistema não pode encontrar o caminho especificado)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.localstore.SafeFileOutputStream.<init>(SafeFileOutputStream.java:51)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSave(SaveManager.java:1600)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSave(SaveManager.java:1680)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1142)
+	at org.eclipse.core.internal.resources.Workspace.save(Workspace.java:2376)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor$5.run(IDEWorkbenchAdvisor.java:508)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SESSION 2014-08-21 16:27:18.297 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.8.0
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.standard.product
+Command-line arguments:  -data C:\PROJETOS_Bitbucket\Robocode -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.standard.product
+
+!ENTRY oracle.eclipse.tools.common.services 2 2 2014-08-21 16:27:35.216
+!MESSAGE Unable to find file [1.artifact.sjo].
+
+!ENTRY oracle.eclipse.tools.common.services 2 2 2014-08-21 16:27:36.463
+!MESSAGE Unable to find file [1.artifact.sjo].
+
+!ENTRY org.jboss.tools.central 4 0 2014-08-21 16:27:40.075
+!MESSAGE Cannot initialize JBoss DND
+
+!ENTRY org.eclipse.ui.ide 4 4 2014-08-21 16:34:38.631
+!MESSAGE Problems saving workspace
+
+!ENTRY org.eclipse.ui.ide 4 1 2014-08-21 16:34:38.631
+!MESSAGE Problems occurred while trying to save the state of the workbench.
+!SUBENTRY 1 org.eclipse.core.resources 4 568 2014-08-21 16:34:38.631
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: C:\PROJETOS_Bitbucket\Robocode\.metadata\.plugins\org.eclipse.core.resources\.projects\RemoteSystemsTempFiles\.markers (O sistema não pode encontrar o caminho especificado)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.localstore.SafeFileOutputStream.<init>(SafeFileOutputStream.java:51)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSave(SaveManager.java:1600)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSave(SaveManager.java:1680)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1142)
+	at org.eclipse.core.internal.resources.Workspace.save(Workspace.java:2376)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor$5.run(IDEWorkbenchAdvisor.java:508)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
