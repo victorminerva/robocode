@@ -4,4 +4,4 @@
 
 ### Objetivo ###
 
-Aprender com o desenvolvimento do jogo Robocode em java, conceitos de Orientação a Objetos.
+Aprender com o desenvolvimento do jogo Robocode em java, **conceitos de Orientação a Objetos**.
